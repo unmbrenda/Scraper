@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Scrappy Scrapper</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/index.css" />
+
+    </head>
+
+    <body>
+        <article>
+            <header>
+                <div class="title">Scrappy Scrapper</div>
+                <div class="buttons">
+                    <button id="scrape" class="btn">Scrape Articles</button>
+                    <button id="viewSaved" class="btn">View Saved</button>
+                </div>
+            </header>
+            <main>
+                <div class="overview">
+                    <p>Use the Scrappy Scrapper to collect articles and make notes. Click the Scrape button to get started.</p>
+                </div>
+                <div class="stories scraped-stories" id="storyCont">
+
+                </div>
+            </main>
+            <footer>
+                Scrappy Scrapper
+            </footer>
+        </article>
+
+
+
+        <div id="commentModal" class="modal">
+
+            <div class="modal-content">
+
+                <div class="modal-headline" data-id="">
+                </div>
+                <form class="add-comment">
+                    <label for="newComment">Comment</label>
+                    <br>
+                    <textarea name="newComment" id="newComment" placeholder="make a note"></textarea>
+                    <br>
+                    <div class="save-buttons">
+                        <button class="save-comment btn" id="saveBtn">save</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+
+        <script src="/assets/js/index.js"></script>
+    </body>
+
+</html>
