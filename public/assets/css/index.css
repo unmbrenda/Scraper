@@ -16,7 +16,7 @@ article {
 
 header {
     align-self: center;
-    background-color: lightgray;
+    background-color: rgb(114, 171, 179);
     padding: 10px 25px;
     display: grid;
     grid-template-columns: auto auto;
@@ -24,17 +24,17 @@ header {
 
 .title {
     display: inline-block;
-    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     font-size: 18px;
     align-self: center;
 }
 
 .btn {
-    background-color: #4CAF50;
+    background-color: rgb(175, 134, 158);
     /* Green */
     border: none;
-    color: white;
+    color: rgb(13, 39, 56);
     padding: 10px 25px;
     text-align: center;
     text-decoration: none;
@@ -42,11 +42,13 @@ header {
     font-size: 16px;
     cursor: pointer;
     outline: none;
+    border-radius: 25px;
 }
 
 .btn:active {
-    background-color: green;
+    background-color: rgb(13, 61, 73);
     outline: none;
+    border-radius: 25px;
 }
 
 header button {
@@ -57,15 +59,14 @@ header button {
 .overview {
     text-align: center;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(253, 251, 251);
     margin: 5px auto;
 }
 
 .stories {
     background-color: whitesmoke;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 2px;
+    border: 5px solid white;
 }
 
 header .buttons {
@@ -75,16 +76,17 @@ header .buttons {
 
 .story {
     padding: 5px;
-    background-color: lightgray;
+    background-color: rgb(114, 171, 179);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    border: 5px solid white;
 }
 
 .story-header {
     display: grid;
     grid-template-columns: auto 50px;
     margin-bottom: 3px;
-    border-bottom: .5px solid cadetblue;
+    border-bottom: .5px solid white;
     padding-bottom: 5px;
 }
 

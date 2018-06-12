@@ -13,7 +13,7 @@ const app = express();
 app.use(express.static('public'));
 app.use(bodyParser.json())
 
-const mongoConn = process.env.mongodb || "mongodb://localhost/scrappyscrapper";
+const mongoConn = "mongodb://bbscrapps:C8SdHn5Xb2EgtTq@ds137826.mlab.com:37826/scrapps";
 mongoose.connect(mongoConn);
 
 app.get('/api/scrape', (req, res, next) => {
